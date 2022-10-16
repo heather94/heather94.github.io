@@ -1,0 +1,869 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eaebeb;
+  }
+  
+  h1 {
+    font-size: 89px;
+    font-style: 'Bebas Neue', cursive;
+    color:#ffffff;
+    padding: 30px 40px;
+    margin: 30px 10px 10px 30px;
+  }
+
+  /*cover-page*/
+  .cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    }
+   
+    .intro {
+        background-color: #d8552a;
+    }
+    
+  h1, .intro {
+    max-width: 100%;
+    margin: auto;
+  }
+  .nav p{
+    color: black;
+  }
+  
+/*alternative articles*/
+.main .nav{
+    padding-left: 0px;
+}
+  .menu .nav ul {
+    display: block;
+    text-align: left;
+    color: #ffffff;
+    list-style: none;
+    font-size: 58px;
+    padding: 30px 40px;
+    margin: 30px 10px 0 30px;
+  }
+  .menu p {
+    font-size: 30px;
+    padding: 30px 40px;
+    margin: 30px 10px 10px 30px;
+  }
+  .menu .nav ul a:link{
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .menu .nav ul a:visited{
+    color: #d8552a;
+    text-decoration: none;
+    font-style: italic;
+  }
+  .menu .nav ul a:hover{
+    color: white;
+    background-color: #000;
+  }
+ 
+  /*BOX MENU OPTIONS*/
+
+  .main h2 {
+    margin: 0 10px 10px 0;
+    padding: 30px 0 5px 40px;
+  }
+  .main h3{
+    margin: 0 10px 10px 0;
+    padding: 5px 40px;
+  }
+
+  .main p{
+    margin: 0 10px 10px 0;
+    padding: 5px 40px;
+  }
+  .main #name {
+    font-weight: bold;
+  }
+  .colour-menu {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+    justify-content: center;
+  }
+  #Templates {
+    /*background-color: #C80004;*/
+    background-image: url(./resources/tea-cozy.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  #icons {
+    background-image: url(./resources/grad-cap.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  #portfolio {
+    /*background-color: #C80004;*/
+    background-image: url(./resources/services-website.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  #news {
+    background-image: url(./resources/research-website.png);
+    background-position: left; 
+    background-repeat: no-repeat; 
+   background-size: cover;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #DatabaseDevelopment {
+    background-image: url(./resources/sam-music-website.png);
+    background-position: left; 
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #gallery {
+    background-image: url(./resources/sam-music-website.png);
+    background-position: left; 
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Frontendwebsite {
+    background-image: url(./resources/campervan-website.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  #newsletter {
+    background-image: url(./resources/newsletter.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  #social-media {
+    background-image: url(./resources/social-media-post.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  #shop-front {
+    background-image: url(./resources/campervan-website.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  #mrsn {
+    background-image: url(./resources/mrsn-website.png);
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  #zebra-electrical {
+    background-image: url(./resources/zebra-electrical-website.png);
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  #Templates a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #icons a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #portfolio a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #news a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #DatabaseDevelopment a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #gallery a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #Frontendwebsite a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #newsletter a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #social-media a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #shop-front a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #mrsn a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #zebra-electrical a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  
+  #Templates a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #icons a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #portfolio a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #news a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #DatabaseDevelopment a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #gallery a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #Frontendwebsite a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #newsletter a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #social-media a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #shop-front a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #mrsn a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #zebra-electrical a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  #Templates:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Templates a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #icons:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #icons a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #portfolio:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #portfolio a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #news:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #news a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #DatabaseDevelopment:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #DatabaseDevelopment a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #gallery:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #gallery a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #Frontendwebsite:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Frontendwebsite a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #newsletter:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #newsletter a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #social-media:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #social-media a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #shop-front:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #shop-front a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #mrsn:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #mrsn a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #zebra-electrical:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #zebra-electrical a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #Templates:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #icons a:active{
+    background-color: black;
+  }
+  #icons:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #portolio a:active{
+    background-color: black;
+  }
+  #portfolio:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #news a:active{
+    background-color: black;
+  }
+  #news:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #gallery a:active{
+    background-color: black;
+  }
+  #gallery:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #DatabaseDevelopment:active{
+    background-color: purple;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Frontendwebsite:active{
+    background-color: purple;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #newsletter a:active{
+    background-color: black;
+  }
+  #newsletter:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #social-media a:active{
+    background-color: black;
+  }
+  #social-media:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #shop-front a:active{
+    background-color: black;
+  }
+  #shop-front:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #mrsn a:active{
+    background-color: black;
+  }
+  #mrsn:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #zebra-electrical a:active{
+    background-color: black;
+  }
+  #zebra-electrical:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*mobile*/
+  @media only screen and (max-width: 700px){
+    .cover {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        }
+        .menu .nav ul {
+            display:inline-block;
+            text-align: left;
+            color: #ffffff;
+            list-style: none;
+            font-size: 58px;
+            padding: 5px;
+            margin: 5px;
+          }
+          .menu p {
+            font-size: 30px;
+            padding: 5px;
+            margin: 5px;
+          }
+      .header p{
+        color: black
+      }
+
+    }
+  /*Header Section*/
+  
+  .header {
+    padding: 30px 0px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+  }
+  
+  .header li {
+    list-style: none;
+    color: white;
+  }
+  
+  .header li a {
+    color: #ffffff;
+  }
+  
+  
+  /*Footer Section*/
+  .contact-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #d8552a;
+    }
+    .contact-details p{
+        margin: 0 10px 10px 0;
+        padding: 30px 0 5px 40px;
+    }
+    .contact-contents {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .contact-details .socials {
+        grid-area: 1 / 2 / 2 / 3;;
+    }
+    .socials img{
+        justify-content: right;
+        margin: 20px 5px;
+    }
+    .socials img:hover{
+        background-color: white;
+      }
+
+      .contact-contents #name {
+        font-weight: bold;
+      }
