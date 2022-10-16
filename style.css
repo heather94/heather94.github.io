@@ -126,7 +126,7 @@ html, body {
   }
   #dna {
     background-image: url(./resources/dna.png);
-    background-position: center; /* Center the image */
+    background-position: left; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover;
     margin: 0 10px 10px 0;
