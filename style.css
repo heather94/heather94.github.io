@@ -34,7 +34,7 @@ html, body {
     color: black;
   }
   
-/*alternative articles*/
+/*boxed menu items*/
 .main .nav{
     padding-left: 0px;
 }
@@ -94,9 +94,38 @@ html, body {
     display: block;
     justify-content: center;
   }
-  #Templates {
-    /*background-color: #C80004;*/
-    background-image: url(./resources/tea-cozy.png);
+  #number-guessing {
+    background-image: url(./resources/number-guessing-game.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  #piano-keys {
+    background-image: url(./resources/piano-keys.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+    margin: 0 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  #dna {
+    background-image: url(./resources/dna.png);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover;
@@ -156,21 +185,7 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  #DatabaseDevelopment {
-    background-image: url(./resources/sam-music-website.png);
-    background-position: left; 
-    background-repeat: no-repeat; /* Do not repeat the image */
-   background-size: cover;
-    margin: 0 10px 10px 0;
-    padding: 30px 40px;
-    width: 200px;
-    height: 200px;
-    list-style: none;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
   #gallery {
     background-image: url(./resources/sam-music-website.png);
     background-position: left; 
@@ -186,22 +201,7 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  #Frontendwebsite {
-    background-image: url(./resources/campervan-website.png);
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-   background-size: cover;
-    margin: 0 10px 10px 0;
-    padding: 30px 40px;
-    width: 200px;
-    height: 200px;
-    list-style: none;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
+  
   #newsletter {
     background-image: url(./resources/newsletter.png);
     background-position: center; /* Center the image */
@@ -280,7 +280,17 @@ html, body {
     justify-content: center;
     align-items: center; 
   }
-  #Templates a:link{
+  #number-guessing a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #piano-keys a:link{
+    color: white;
+    text-decoration: none;
+    background-color: #d8552a;
+  }
+  #dna a:link{
     color: white;
     text-decoration: none;
     background-color: #d8552a;
@@ -300,21 +310,13 @@ html, body {
     text-decoration: none;
     background-color: #d8552a;
   }
-  #DatabaseDevelopment a:link{
-    color: white;
-    text-decoration: none;
-    background-color: #d8552a;
-  }
+  
   #gallery a:link{
     color: white;
     text-decoration: none;
     background-color: #d8552a;
   }
-  #Frontendwebsite a:link{
-    color: white;
-    text-decoration: none;
-    background-color: #d8552a;
-  }
+  
   #newsletter a:link{
     color: white;
     text-decoration: none;
@@ -341,7 +343,17 @@ html, body {
     background-color: #d8552a;
   }
   
-  #Templates a:visited{
+  #number-guessing a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #piano-keys a:visited{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #dna a:visited{
     color: white;
     text-decoration: none;
     font-style: italic;
@@ -361,21 +373,13 @@ html, body {
     text-decoration: none;
     font-style: italic;
   }
-  #DatabaseDevelopment a:visited{
-    color: white;
-    text-decoration: none;
-    font-style: italic;
-  }
+  
   #gallery a:visited{
     color: white;
     text-decoration: none;
     font-style: italic;
   }
-  #Frontendwebsite a:visited{
-    color: white;
-    text-decoration: none;
-    font-style: italic;
-  }
+  
   #newsletter a:visited{
     color: white;
     text-decoration: none;
@@ -401,8 +405,8 @@ html, body {
     text-decoration: none;
     font-style: italic;
   }
-  
-  #Templates:hover{
+
+  #number-guessing:hover{
     background-color: #d8552a;
     background-image: none;
     margin: 0px 10px 10px 0;
@@ -415,7 +419,41 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  #Templates a:hover{
+  #number-guessing a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #piano-keys:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #piano-keys a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  #dna:hover{
+    background-color: #d8552a;
+    background-image: none;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #dna a:hover{
     color: white;
     text-decoration: underline;
   }
@@ -470,23 +508,7 @@ html, body {
     color: white;
     text-decoration: underline;
   }
-  #DatabaseDevelopment:hover{
-    background-color: #d8552a;
-    background-image: none;
-    margin: 0px 10px 10px 0;
-    padding: 30px 40px;
-    width: 200px;
-    height: 200px;
-    list-style: none;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #DatabaseDevelopment a:hover{
-    color: white;
-    text-decoration: underline;
-  }
+  
   #gallery:hover{
     background-color: #d8552a;
     background-image: none;
@@ -504,23 +526,7 @@ html, body {
     color: white;
     text-decoration: underline;
   }
-  #Frontendwebsite:hover{
-    background-color: #d8552a;
-    background-image: none;
-    margin: 0px 10px 10px 0;
-    padding: 30px 40px;
-    width: 200px;
-    height: 200px;
-    list-style: none;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #Frontendwebsite a:hover{
-    color: white;
-    text-decoration: underline;
-  }
+  
   #newsletter:hover{
     background-color: #d8552a;
     background-image: none;
@@ -606,7 +612,7 @@ html, body {
     color: white;
     text-decoration: underline;
   }
-  #Templates:active{
+  #number-guessing:active{
     background-color: black;
     color: white;
     margin: 0px 10px 10px 0;
@@ -618,6 +624,41 @@ html, body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+  }
+  #number-guessing a:active{
+    background-color: black;
+  }
+  #piano-keys:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #dna a:active{
+    background-color: black;
+  }
+  #dna:active{
+    background-color: black;
+    color: white;
+    margin: 0px 10px 10px 0;
+    padding: 30px 40px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #piano-keys a:active{
+    background-color: black;
   }
   #icons a:active{
     background-color: black;
@@ -635,7 +676,7 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  #portolio a:active{
+  #portfolio a:active{
     background-color: black;
   }
   #portfolio:active{
@@ -683,32 +724,7 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  #DatabaseDevelopment:active{
-    background-color: purple;
-    color: white;
-    margin: 0px 10px 10px 0;
-    padding: 30px 40px;
-    width: 200px;
-    height: 200px;
-    list-style: none;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #Frontendwebsite:active{
-    background-color: purple;
-    color: white;
-    margin: 0px 10px 10px 0;
-    padding: 30px 40px;
-    width: 200px;
-    height: 200px;
-    list-style: none;
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
   #newsletter a:active{
     background-color: black;
   }
